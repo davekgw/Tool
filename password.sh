@@ -40,10 +40,10 @@ read dev
 if [ "$dev" = "1" ] || [ "$dev" = "01" ];
 then 
 clear
-python /data/data/com.termux/files/usr/share/Tool/tool/hash-id.py
+python2 /data/data/com.termux/files/usr/share/Tool/tool/hash-id.py
 echo -n  $R"Press" ENTRE to back" "
 read ENTRE
-$PREFIX/share/Tool/password.sh
+/data/data/com.termux/files/usr/share/Tool/password.sh
 elif [ "$dev" = "2" ] || [ "$dev" = "02" ];
 then 
 clear
